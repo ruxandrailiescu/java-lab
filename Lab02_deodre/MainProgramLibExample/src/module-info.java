@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module MainProgramLibExample {
+	requires Student;
+}
