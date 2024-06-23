@@ -31,6 +31,9 @@ public class Main {
 		student4.setName("Alex");
 		System.out.println(student2.getName());
 		
+		// tipuri de date in Java => primitive (salvate in stack) si referentiale (adresa salvata in stack, valoarea in heap)
+		// String este o clasa => tip referential (initializate implicit cu null)
+		
 	}
 
 }
