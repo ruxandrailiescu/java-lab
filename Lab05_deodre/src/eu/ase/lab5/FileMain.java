@@ -42,7 +42,7 @@ public class FileMain {
 			BufferedWriter writer = new BufferedWriter(osw);
 			
 			writer.write("Hello world!");
-			writer.write(10);
+			writer.write(10);	// writes the newline character
 			writer.write("aaa");
 			
 			writer.close();
@@ -61,8 +61,8 @@ public class FileMain {
 			
 			BufferedReader reader = new BufferedReader(isr);
 			
-			int a = reader.read();
-			System.out.println(a);
+//			int a = reader.read();
+//			System.out.println(a);
 			
 //			String lineFromFile = reader.readLine();
 //			System.out.println(lineFromFile);
