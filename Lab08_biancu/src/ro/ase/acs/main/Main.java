@@ -11,7 +11,7 @@ public class Main {
 //		// t1.start() fir de executie secundar => in paralel
 //		t1.start();
 //		
-//		// t1.run() ar duce la executia in firul principal => sincrona
+//		// t1.run() ar duce la executia in firul principal => asincrona
 //		
 //		UnsyncedThread t2 = new UnsyncedThread("Thread 2");
 //		t2.start();
