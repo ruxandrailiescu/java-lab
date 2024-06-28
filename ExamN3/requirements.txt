@@ -1,0 +1,25 @@
+N3
+
+1p - starting the exam
+
+(1p) Create Java project(s) in Eclipse/IntelliJ and classes for managing an airplane's expenses (such as: kerosene, maintenance, insurance, flight crew
+costs, etc.)
+Please implement constructors, get/set methods and highlight "has a" and "is a" relationship, also use interfaces and exceptions handling.
+
+(1p) Build a Java application which is performing serialization into file(s) with objects used in the process of an airplane's expenses management. The
+file should contain details per day such as: id_airplane, insurance_company, distance, kerosene_consumption, kerosene_cost, insurance_cost, flightcrew_cost,
+date.
+
+(1p) Build a TCP client for sending the files for the airplane's expenses. The files are created in the previous point. Build a TCP server for receiving
+files with the airplane's expenses per day in multi-threading manner with Executor-Service mechanism.
+
+-----Points dynamically requested by the teacher:
+(1p) JCF - Java Collection Framework - e.g. the TCP server after receiving the serialized objects from files, is deserializing them and creates a list
+of airplanes and sorts them descending, without functional programming, according to their total expenses in EUR / the cost per mile / ...
+
+(1p) Functional programming - Lambda, Functional Interfaces, Functional Processing Streams
+
+(2p) JDBC - SQLite (e.g. insert only certain airplanes or data in some SQL table and display them)
+
+(2p) Advanced topics applied into the solution - e.g. transform the multi-threading in Future-Callable with Executor-Service approach, replace the 
+multi-threading with reactive streams, use GUI Java FXML to inject into DB data, ...
